@@ -4,7 +4,7 @@
   "fullName": "Restart Jetpack",
   "author": "Erik Vold <erikvvold@gmail.com> (http://erikvold.com)",
   "license": "MIT",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "dependencies": [
     "addon-kit",
     "api-utils",
@@ -13,5 +13,28 @@
     "menuitems",
     "toolbarbutton",
     "xulkeys"
+  ],
+  "preferences": [
+    {
+      "name": "key",
+      "description": "Default is \"R\"",
+      "type": "string",
+      "value": "R",
+      "title": "Hotkey"
+    },
+    {
+      "name": "modifiers",
+      "description": "Default is \"accel,alt\"",
+      "type": "string",
+      "value": "accel,alt",
+      "title": "Hotkey modifiers"
+    },
+    {
+      "name": "disable_fastload",
+      "description": "This will invalidate caches on the next restart, so all fast load data to be re-created.",
+      "type": "bool",
+      "value": false,
+      "title": "Disable Fastload"
+    }
   ]
 }
