@@ -8,7 +8,6 @@
   "dependencies": [
     "addon-kit",
     "api-utils",
-    "l10n",
     "application-utils",
     "vold-utils",
     "menuitems",
