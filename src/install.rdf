@@ -17,8 +17,6 @@
     <contributor>Szabolcs Hubai</contributor>
     <contributor>Markus Brandt</contributor>
 
-    <translator>Mikael Hiort af Ornäs</translator>
-
     <!-- Firefox -->
     <targetApplication>
       <r:Description>
@@ -51,5 +49,63 @@
         <maxVersion>10.0a1</maxVersion>
       </r:Description>
     </targetApplication>
+    
+    <localized>
+      <Description>
+        <locale>de</locale>
+        <name>Restartless Restart</name>
+        <description>Fennec users enable to restart, otherwise a File -> Restart menu item will be added.</description>
+        <translator></translator>
+      </Description>
+      <Description>
+        <locale>es</locale>
+        <name>Restartless Restart</name>
+        <description>Permite reiniciar a los usuarios de Fennec, en caso distinto añade el elemento Archivo -> Reiniciar al menú.</description>
+        <translator>strel</translator>
+      </Description>
+      <Description>
+        <locale>ja</locale>
+        <name>Restartless Restart</name>
+        <description>Fennec users enable to restart, otherwise a File -> Restart menu item will be added.</description>
+        <translator></translator>
+      </Description>
+      <Description>
+        <locale>no</locale>
+        <name>Restartless Restart</name>
+        <description>Fennec users enable to restart, otherwise a File -> Restart menu item will be added.</description>
+        <translator></translator>
+      </Description>
+      <Description>
+        <locale>pt-BR</locale>
+        <name>Restartless Restart</name>
+        <description>Fennec users enable to restart, otherwise a File -> Restart menu item will be added.</description>
+        <translator></translator>
+      </Description>
+      <Description>
+        <locale>ru</locale>
+        <name>Restartless Restart</name>
+        <description>Fennec users enable to restart, otherwise a File -> Restart menu item will be added.</description>
+        <translator></translator>
+      </Description>
+      <Description>
+        <locale>sv-SE</locale>
+        <name>Restartless Restart</name>
+        <description>Fennec users enable to restart, otherwise a File -> Restart menu item will be added.</description>
+        <translator>Mikael Hiort af Ornäs</translator>
+      </Description>
+    </localized>
+      <Description>
+        <locale>zh-CN</locale>
+        <name>Restartless Restart</name>
+        <description>Fennec users enable to restart, otherwise a File -> Restart menu item will be added.</description>
+        <translator></translator>
+      </Description>
+      <Description>
+        <locale>zh-TW</locale>
+        <name>Restartless Restart</name>
+        <description>Fennec users enable to restart, otherwise a File -> Restart menu item will be added.</description>
+        <translator></translator>
+      </Description>
+    
   </r:Description>
 </r:RDF>
